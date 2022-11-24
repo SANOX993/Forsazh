@@ -1,0 +1,767 @@
+@import url("reset.css");
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: 10px;
+}
+.header__navigation {
+  width: 666px;
+}
+.header__navigation ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header__navigation a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+.header__navigation a:hover {
+  color: #D5712E;
+  transition: linear 0.2s;
+}
+
+.socials {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.top {
+  background-image: url("../images/information/background.jpg");
+  background-position: center;
+  background-position-y: 10%;
+  background-position-x: 80%;
+  background-repeat: no-repeat;
+}
+
+.information {
+  background-image: url("../images/information/bmw.png");
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: 90%;
+  background-size: 50%;
+  padding-top: 100px;
+  padding-bottom: 215px;
+}
+.information__tel {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #000000;
+  text-decoration: none;
+}
+.information__tel span {
+  color: #D5712E;
+}
+.information__inner {
+  width: 545px;
+  display: flex;
+  flex-direction: column;
+}
+.information__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 71px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.information__title span {
+  color: #D5712E;
+}
+.information__subtitle {
+  margin-bottom: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.services {
+  padding-top: 10px;
+}
+.services__inner {
+  display: flex;
+  flex-direction: column;
+}
+.services__blocks {
+  margin-top: 50px;
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.services__icon {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.services__block {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services__title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+.services__block-title {
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+.services__block-subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.about {
+  padding-top: 190px;
+}
+.about__info {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__slider {
+  overflow: hidden;
+  width: 602px;
+  height: 322px;
+}
+.about__slider-cursor {
+  transition: all ease 1s;
+  position: relative;
+  height: 4px;
+  width: 150px;
+  background-color: #D5712E;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 52px;
+}
+.about__slider-right {
+  cursor: pointer;
+}
+.about__slider-left {
+  cursor: pointer;
+}
+.about__slider-nav {
+  margin-top: 110px;
+}
+.about__slider-images {
+  display: flex;
+  width: 1050px;
+  justify-content: space-between;
+}
+.about__slider-images-image {
+  border-radius: 30px;
+  cursor: pointer;
+}
+.about__slider-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about__slider-line {
+  transition: all ease 1s;
+  position: relative;
+  display: flex;
+  width: 2520px;
+}
+.about__slider-image {
+  cursor: pointer;
+  width: 602px;
+  height: 322px;
+  margin-right: 28px;
+  border-radius: 30px;
+}
+.about__slider-images-image {
+  width: 252px;
+  height: 138px;
+}
+.about__text {
+  width: 582px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+
+.caption {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: #000000;
+}
+
+.advantages {
+  margin-top: 90px;
+}
+.advantages__line {
+  max-width: 960px;
+  height: 2px;
+  background-color: #FF9C56;
+}
+.advantages__line-top {
+  margin-bottom: 60px;
+  margin-right: 50%;
+}
+.advantages__line-bot {
+  margin-top: 80px;
+  margin-left: 50%;
+}
+.advantages__block {
+  width: 165px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.advantages__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.advantages__blocks {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.advantages__icon-block {
+  width: 125px;
+  height: 125px;
+  background: #FF9C56;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.advantages__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+.comments {
+  padding-top: 100px;
+}
+.comments__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.comments__btn {
+  margin-top: 40px;
+  cursor: pointer;
+  border: none;
+  width: 260px;
+  height: 60px;
+  background: #D5712E;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.comments__btn:hover {
+  background: #bd6a32;
+  transition: linear 0.2s;
+}
+.comments__arrow-right {
+  cursor: pointer;
+}
+.comments__arrow-left {
+  cursor: pointer;
+}
+.comments__slider-block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.comments__slider {
+  width: 1094px;
+  overflow: hidden;
+}
+.comments__slider-comment-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.comments__slider-comment-person {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #999999;
+}
+.comments__slider-comment {
+  width: 482px;
+  margin-right: 130px;
+}
+.comments__slider-line {
+  transition: all ease 1s;
+  z-index: -1;
+  display: flex;
+  width: 2448px;
+  position: relative;
+}
+
+.car {
+  overflow: hidden;
+}
+.car__line {
+  position: absolute;
+  width: 2802px;
+  height: 144.9px;
+  left: -660px;
+  top: 3380px;
+  background: #FF9C56;
+  transform: rotate(-10deg);
+  z-index: -1;
+  justify-self: center;
+}
+.car__inner {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  padding-bottom: 50px;
+  margin-top: 110px;
+}
+.footer__inner {
+  padding-top: 50px;
+  display: flex;
+  border-top: 1px solid #D9D9D9;
+  justify-content: space-between;
+}
+.footer__right {
+  display: flex;
+  flex-direction: column;
+}
+.footer__navigation ul {
+  display: flex;
+  flex-direction: column;
+  height: 183px;
+  justify-content: space-between;
+}
+.footer__navigation a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+.footer__navigation a:hover {
+  color: #D5712E;
+  transition: linear 0.2s;
+}
+.footer__text {
+  margin-top: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #000000;
+}
+.footer__text-top {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1350px) {
+  .container {
+    max-width: 950px;
+  }
+  .header__navigation {
+    width: 500px;
+  }
+  .header__navigation ul {
+    width: 100%;
+  }
+  .header__navigation a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .logo {
+    width: 150px;
+  }
+  .information__inner {
+    width: 450px;
+  }
+  .information__title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .information__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .information__tel {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .advantages__icon-block {
+    width: 100px;
+    height: 100px;
+  }
+  .advantages__icon {
+    width: 40px;
+    height: 40px;
+  }
+  .advantages__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .advantages__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .services__icon {
+    width: 130px;
+    height: 130px;
+  }
+  .services__icon img {
+    width: 80px;
+    height: 80px;
+  }
+  .services__block-title {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .services__block-subtitle {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .services__blocks {
+    align-items: flex-start;
+  }
+  .services__block {
+    width: 280px;
+  }
+  .top {
+    background-position-y: 6%;
+    background-position-x: 67%;
+  }
+  .about {
+    padding-top: 250px;
+  }
+  .about__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .about__slider-image {
+    width: 440px;
+    height: 250px;
+  }
+  .about__slider-cursor {
+    width: 80px;
+    margin-left: 55px;
+  }
+  .about__slider-nav {
+    margin-top: 40px;
+  }
+  .about__slider-image {
+    margin-right: 190px;
+  }
+  .about__slider-line {
+    margin-top: 35px;
+  }
+  .about__slider-images {
+    width: 800px;
+  }
+  .about__slider-images-image {
+    width: 180px;
+    height: 100px;
+    border-radius: 20px;
+  }
+  .comments__slider {
+    width: 612px;
+  }
+  .comments__slider-comment {
+    width: 612px;
+    margin-right: 0px;
+  }
+  .comments__slider-comment-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .comments__slider-comment-person {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .car__line {
+    top: 3120px;
+  }
+  .footer__navigation a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer__text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .container {
+    max-width: 750px;
+  }
+  .header__navigation {
+    display: none;
+  }
+  .top {
+    background-position-x: 70%;
+    background-position-y: 5%;
+  }
+  .information {
+    padding-top: 70px;
+  }
+  .services__inner {
+    width: 100%;
+  }
+  .services__blocks {
+    width: 100%;
+  }
+  .about__info {
+    flex-direction: column-reverse;
+  }
+  .about__slider {
+    height: 357px;
+  }
+  .about__slider-cursor {
+    margin-left: 30px;
+  }
+  .about__slider-images {
+    width: 600px;
+  }
+  .about__slider-images-image {
+    width: 140px;
+    height: 77px;
+    border-radius: 10px;
+  }
+  .about__slider-image {
+    width: 602px;
+    height: 322px;
+  }
+  .advantages__icon-block {
+    width: 100px;
+    height: 100px;
+  }
+  .advantages__icon {
+    width: 35px;
+    height: 35px;
+  }
+  .advantages__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .advantages__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer__text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .car__line {
+    top: 3090px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .container {
+    max-width: 370px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .top {
+    background-position-y: 34%;
+    background-position-x: 84%;
+  }
+  .information {
+    background-size: 350px;
+    background-position-y: 97%;
+    background-position-x: 50%;
+  }
+  .information__title {
+    font-size: 46px;
+    line-height: 50px;
+  }
+  .information__inner {
+    width: 100%;
+  }
+  .services__blocks {
+    flex-direction: column;
+    align-items: center;
+    height: 760px;
+  }
+  .about {
+    padding-top: 100px;
+  }
+  .about__text {
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .about__slider {
+    height: auto;
+    width: 350px;
+  }
+  .about__slider-row {
+    display: none;
+  }
+  .about__slider-image {
+    border-radius: 15px;
+    width: 350px;
+    height: 190px;
+    margin-right: 280px;
+  }
+  .advantages__blocks {
+    flex-direction: column;
+    align-items: center;
+    height: 1100px;
+  }
+  .comments__slider {
+    width: 290px;
+  }
+  .comments__slider-comment {
+    width: 290px;
+    margin-right: 322px;
+  }
+  .car {
+    padding-top: 40px;
+  }
+  .car__line {
+    height: 100px;
+    top: 4264px;
+  }
+  .footer__inner {
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+  }
+  .footer__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 370px) {
+  .container {
+    width: 340px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .information {
+    background-size: 320px;
+  }
+  .services__blocks {
+    height: 680px;
+  }
+  .top {
+    background-position-x: 74%;
+  }
+  .about__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .about__slider {
+    width: 320px;
+  }
+  .about__slider-image {
+    width: 320px;
+    height: 174px;
+    margin-right: 310px;
+  }
+  .comments__slider-comment {
+    width: 260px;
+    margin-right: 352px;
+  }
+  .car__line {
+    top: 4122px;
+  }
+}/*# sourceMappingURL=index.css.map */
