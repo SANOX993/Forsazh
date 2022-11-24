@@ -691,6 +691,9 @@ body {
 }
 
 @media screen and (max-width: 760px) {
+    * {
+        overflow-x: hidden;
+    }
     .container {
         width: 370px;
         padding-left: 10px;
@@ -705,6 +708,7 @@ body {
         background-position-y: 97%;
         background-position-x: 50%;        
         &__title {
+            overflow: hidden;
             font-size: 46px;
             line-height: 50px;            
         }
